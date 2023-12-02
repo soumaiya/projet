@@ -1,0 +1,53 @@
+/* style pour l'élément du DOM alert */
+#alert {
+  display: none; /* Cache l'element par defaut*/
+  position: fixed; /*fixer la position*/
+  bottom: 20px; /* 20 px en bas */
+  right: 20px; /*20 px a droite */
+  background-color: #4CAF50; /* Vert */
+  color: #fff; /* Texte en blanc */
+  border: 1px solid #bbbbbb; /* Bordure avec une couleur gris clair*/
+  padding: 15px; /* espace interieur de 15 px*/
+  max-width: 300px; /*largeur max de 300px */
+  text-align: center; /* Centrer le texte */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 18px; /* Taille du texte */
+}
+/* style pour l'ensemble du DOM body */
+body {
+  font-family: Arial, sans-serif; /*police du texte*/
+  margin: 0; /* pas de marge  */
+  padding: 0; /* pas d'espacement interrieur */
+  display: flex; /* utilisé flex pour les placement */ 
+  justify-content: center; /*centre horrizontale */
+  align-items: center; /*centre vertical*/
+  height: 100vh; /* hauteur de la fenêtre */
+  background-color: #dbfee3; /* fond couleur vert clair*/
+}
+/* style pour l'ensemble du DOM quiz-form*/
+#quiz-form {
+  width: 70%; /* ajuster la largeur du formulaire */
+  max-width: 800px; /* largeur maximale du formulaire */
+  padding: 20px; /*emplacement interrieur 20 px */
+  background-color: #fff; /* fond de couleur blanc*/ 
+  border-radius: 10px; /* coins arrondis*/ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Ombre sur le formulaire, pour ajouter du relief*/
+}
+/*style pour l'element du DOM question-item */
+.question-item {
+  margin-bottom: 20px; /* espace en bas de chaque quesion*/
+}
+/*style pour l'element du DOM aswer-item*/
+.answer-item {
+  margin-bottom: 10px; /*espace en bas pour chaque reponse*/
+}
+/*Style pour le bouton submit*/
+button[type="submit"] {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #4CAF50; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; /*curseur de type pointeur*/ 
+}
